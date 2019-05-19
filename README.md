@@ -4,5 +4,7 @@ This project has been created for the Octonius SDE Intern test by Yogesh Aggarwa
 # Frontend
 Here is the UI of the project made using Material design.
 
+[](images/intro.png)
+
 # Backend
 The bckend is written in node.js and the database used is a MongoDB cloud database created using mLab/mongoDBAtlas.
