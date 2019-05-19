@@ -1,5 +1,5 @@
 # Todo App
-This project has been created for the Octonius SDE Intern test by Yogesh Aggarwal.  NPM and Angular must be installed in the machine to run this project. To run the app, enter the following command in the command prompt. (Make sure you're in the ```todo_app/todo directory```). 
+This project has been created for the Octonius SDE Intern test by Yogesh Aggarwal.  NPM and Angular must be installed in the machine to run this project. To run the app, enter the following command in the command prompt. (Make sure you're in the ```todo_app/todo``` directory). 
 ```
 npm start
 ```
