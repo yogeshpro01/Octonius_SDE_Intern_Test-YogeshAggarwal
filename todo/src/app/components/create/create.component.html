@@ -1,0 +1,22 @@
+<div>
+  <br>
+  <mat-card>
+    <section class="mat-typography">
+      <h3>Create a New Todo</h3>
+    </section>
+    <mat-divider></mat-divider>
+    <br>
+    <form [formGroup]="createForm" class="create-form">
+      <mat-form-field class="field-full-width">
+        <input matInput placeholder="Name" formControlName="name" #name>
+      </mat-form-field>
+      <mat-form-field class="field-full-width">
+        <textarea matInput placeholder="Description" formControlName="description" #description></textarea>
+      </mat-form-field> 
+      <mat-divider></mat-divider>
+      <br><br>
+      <button mat-raised-button color="accent" routerLink="/list" style = "margin-right:10px;">Back</button>
+      <button type="submit" (click)="addTodoElement(name.value,description.value)" [disabled]="createForm.pristine || createForm.invalid" mat-raised-button color="primary">Save</button>
+    </form>
+  </mat-card>
+</div>
